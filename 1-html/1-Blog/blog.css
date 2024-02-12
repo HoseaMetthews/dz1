@@ -1,0 +1,94 @@
+html{
+    background: linear-gradient(180deg, rgba(55, 65, 81, 1), rgba(17, 24, 39, 1));
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+#p11{
+    opacity: 60%;
+    color: white;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#Worker1{
+    color: white;
+    text-align: center;
+    margin-bottom: 28px;
+}
+#worker{
+    opacity: 60%;
+    color: white;
+}
+#inp11{
+    background-color: rgba(31, 41, 55, 0.6);
+    opacity: 60%;
+    color: white;;
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+}
+#p21{
+    font-size: 20px;
+    color: white;
+}
+#p23{
+    font-size: 16px;
+    color: white;
+}
+footer{
+    opacity: 60%;
+    color: white;
+    text-align: center;
+    margin-bottom: 77px;
+}
+#hero{
+    background-color: rgba(75, 85, 99, 1);
+    padding: 10px 12px;
+    border-radius: 3px;
+    font-size: 23px;
+}
+#hero1{
+    font-size: 21px;
+    margin-left: 180px;
+    margin-right: 77px;
+}
+nav{
+    margin-top: 77px;
+}
+#hero3{
+    font-size: 19px;
+    margin-right: 55px;
+}
+#hero4{
+    font-size: 19px;
+    margin-right: 55px;
+}
+#hero5{
+    font-size: 19px;
+    margin-right: 55px;
+}
+#hero6{
+    font-size: 19px;
+    margin-right: 600px;
+}
+img{
+    width: 896px;
+    height: 594px;
+    margin-left: 500px;
+    margin-bottom: 69px;
+}
+section{
+    margin-left: 500px;
+    margin-bottom: 103px;
+}
+#main1{
+    margin-top: 80px;
+}
