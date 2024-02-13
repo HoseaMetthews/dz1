@@ -4,13 +4,14 @@ html{
 .Block{
     background-color: white;
 }
-h1{
-    font-size: 36px;
-}
 p{
     font-size: 18px;
 color: #666;
 }
+h1{
+    font-size: 36px;
+}
+
 #Giper{
     color: #089FE0;
     font-size: 18px;

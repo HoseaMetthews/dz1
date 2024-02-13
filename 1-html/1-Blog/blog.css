@@ -43,11 +43,9 @@ h1{
     font-size: 16px;
     color: white;
 }
-footer{
-    opacity: 60%;
-    color: white;
-    text-align: center;
-    margin-bottom: 77px;
+section{
+    margin-left: 500px;
+    margin-bottom: 103px;
 }
 #hero{
     background-color: rgba(75, 85, 99, 1);
@@ -85,9 +83,11 @@ img{
     margin-left: 500px;
     margin-bottom: 69px;
 }
-section{
-    margin-left: 500px;
-    margin-bottom: 103px;
+footer{
+    opacity: 60%;
+    color: white;
+    text-align: center;
+    margin-bottom: 77px;
 }
 #main1{
     margin-top: 80px;
