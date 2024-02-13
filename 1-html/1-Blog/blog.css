@@ -9,7 +9,7 @@ a{
     font-size: 16px;
     color: white;
 }
-#p11{
+.p11{
     opacity: 60%;
     color: white;
     text-align: center;
@@ -18,16 +18,16 @@ h1{
     color: white;
     text-align: center;
 }
-#Worker1{
+.Worker1{
     color: white;
     text-align: center;
     margin-bottom: 28px;
 }
-#worker{
+.worker{
     opacity: 60%;
     color: white;
 }
-#inp11{
+.inp11{
     background-color: rgba(31, 41, 55, 0.6);
     opacity: 60%;
     color: white;;
@@ -35,11 +35,11 @@ h1{
     width: 224px;
     height: 40px;
 }
-#p21{
+.p21{
     font-size: 20px;
     color: white;
 }
-#p23{
+.p23{
     font-size: 16px;
     color: white;
 }
@@ -47,13 +47,13 @@ section{
     margin-left: 500px;
     margin-bottom: 103px;
 }
-#hero{
+.hero{
     background-color: rgba(75, 85, 99, 1);
     padding: 10px 12px;
     border-radius: 3px;
     font-size: 23px;
 }
-#hero1{
+.hero1{
     font-size: 21px;
     margin-left: 180px;
     margin-right: 77px;
@@ -61,19 +61,19 @@ section{
 nav{
     margin-top: 77px;
 }
-#hero3{
+.hero3{
     font-size: 19px;
     margin-right: 55px;
 }
-#hero4{
+.hero4{
     font-size: 19px;
     margin-right: 55px;
 }
-#hero5{
+.hero5{
     font-size: 19px;
     margin-right: 55px;
 }
-#hero6{
+.hero6{
     font-size: 19px;
     margin-right: 600px;
 }
@@ -89,6 +89,6 @@ footer{
     text-align: center;
     margin-bottom: 77px;
 }
-#main1{
+.main1{
     margin-top: 80px;
 }
