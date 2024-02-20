@@ -1,46 +1,78 @@
 html{
     background-color: #F39494;
 }
+div{
+    margin: 225px 0 0 675px;
+    padding: auto;
+    width: 582px;
+    height: 573px;
+top: 225px;
+left: 429px;
+border-radius: 10px;
+
+}
 .Block{
     background-color: white;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 72px 106px 0 93px;
+    margin: 0;
 }
 p{
     font-size: 18px;
 color: #666;
+text-align: center;
+margin: 0 0 47px 0;
 }
-h1{
-    font-size: 36px;
-}
-
-#Giper{
+.Giper{
     color: #089FE0;
     font-size: 18px;
 }
-#Giper2{
+.Giper2{
 color: #089FE0;
 font-size: 14px;
 }
-#heroButton{
+.heroButton{
     background-color: #089FE0;
     font-size: 18px;
     color: white;
 }
-#checkbox{
+.checkbox{
     font-size: 14px;
     color: #666;
+    
 }
-#username{
-    background-color: white;
+.username{
+    background-color: #FFFEFE;
+    margin: 0;
+    margin: 0 0 21px 100px;
+    width: 394px;
+height: 44px;
+top: 424px;
+left: 522px;
+border-radius: 5px;
+border: 1px solid #000;
+border-color: #757575;
 }
-#name{
+.Name{
+margin: 0;
+color: #999;
+font-size: 14px;
+width: 394px;
+height: 45px;
+top: 489px;
+left: 522px;
+border-radius: 5px;
+border: 1px solid #000;
+font-style: oblique;
+}
+.surname{
     color: #999;
     font-size: 14px;
 }
-#surname{
-    color: #999;
-    font-size: 14px;
-}
-#email{
+.email{
     color: #999;
     font-size: 16px;
 }

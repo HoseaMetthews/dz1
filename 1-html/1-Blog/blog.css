@@ -2,8 +2,13 @@ html{
     background: linear-gradient(180deg, rgba(55, 65, 81, 1), rgba(17, 24, 39, 1));
 }
 body{
+    padding: 0;
     margin: 0;
 }
+header{
+    display: flex;
+}
+
 a{
     text-decoration: none;
     font-size: 16px;
@@ -13,6 +18,10 @@ a{
     opacity: 60%;
     color: white;
     text-align: center;
+    margin-right: 367px;
+}
+ul{
+    list-style: none;
 }
 h1{
     color: white;
@@ -27,13 +36,14 @@ h1{
     opacity: 60%;
     color: white;
 }
-.inp11{
+.inputHero{
     background-color: rgba(31, 41, 55, 0.6);
     opacity: 60%;
     color: white;;
     border-radius: 100px;
     width: 224px;
     height: 40px;
+    margin: 71px 180px 69px 700px;
 }
 .p21{
     font-size: 20px;
@@ -44,8 +54,7 @@ h1{
     color: white;
 }
 section{
-    margin-left: 500px;
-    margin-bottom: 103px;
+    margin: 0 0 103px 160px;
 }
 .hero{
     background-color: rgba(75, 85, 99, 1);
@@ -55,33 +64,18 @@ section{
 }
 .hero1{
     font-size: 21px;
-    margin-left: 180px;
-    margin-right: 77px;
 }
 nav{
     margin-top: 77px;
 }
-.hero3{
+.hero2{
     font-size: 19px;
-    margin-right: 55px;
-}
-.hero4{
-    font-size: 19px;
-    margin-right: 55px;
-}
-.hero5{
-    font-size: 19px;
-    margin-right: 55px;
-}
-.hero6{
-    font-size: 19px;
-    margin-right: 600px;
+    margin-right: 500px;
 }
 img{
     width: 896px;
     height: 594px;
-    margin-left: 500px;
-    margin-bottom: 69px;
+    margin: 0 0 69PX 525px;
 }
 footer{
     opacity: 60%;
@@ -91,4 +85,21 @@ footer{
 }
 .main1{
     margin-top: 80px;
+}
+p{
+    margin: 0 0 0 367px;
+}
+#div2{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+}
+#div3{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
 }
