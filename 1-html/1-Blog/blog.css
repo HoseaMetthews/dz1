@@ -4,9 +4,11 @@ html{
 body{
     padding: 0;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header{
     display: flex;
+    padding: 60px 180px 69px;
 }
 
 a{
@@ -18,23 +20,28 @@ a{
     opacity: 60%;
     color: white;
     text-align: center;
-    margin-right: 367px;
 }
 ul{
     list-style: none;
+   
 }
 h1{
     color: white;
     text-align: center;
+    margin: auto;
+    width: 900px;
+
+
 }
 .Worker1{
     color: white;
     text-align: center;
-    margin-bottom: 28px;
 }
 .worker{
     opacity: 60%;
     color: white;
+    text-align: center;
+    margin-bottom: 28px;
 }
 .inputHero{
     background-color: rgba(31, 41, 55, 0.6);
@@ -43,39 +50,26 @@ h1{
     border-radius: 100px;
     width: 224px;
     height: 40px;
-    margin: 71px 180px 69px 700px;
-}
-.p21{
-    font-size: 20px;
-    color: white;
-}
-.p23{
-    font-size: 16px;
-    color: white;
-}
-section{
-    margin: 0 0 103px 160px;
+    margin-left: auto;
 }
 .hero{
     background-color: rgba(75, 85, 99, 1);
-    padding: 10px 12px;
+    padding: 10px 15px;
     border-radius: 3px;
     font-size: 23px;
 }
 .hero1{
     font-size: 21px;
 }
-nav{
-    margin-top: 77px;
-}
 .hero2{
     font-size: 19px;
-    margin-right: 500px;
+    margin-right: auto;
 }
-img{
+.Img{
     width: 896px;
     height: 594px;
-    margin: 0 0 69PX 525px;
+    margin: 10px auto 20px;
+    display: block;
 }
 footer{
     opacity: 60%;
@@ -84,22 +78,49 @@ footer{
     margin-bottom: 77px;
 }
 .main1{
-    margin-top: 80px;
+    margin: auto;
 }
-p{
-    margin: 0 0 0 367px;
+.div2 {
+    width: 700px;
+    margin: auto;
 }
-#div2{
-font-family: Roboto;
+.div2 li{
+margin: auto;
+color: white;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.li1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: 32px;
+letter-spacing: 0em;
 text-align: left;
 }
-#div3{
-font-family: Roboto;
+.li2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 30px;
+letter-spacing: 0em;
 text-align: left;
+}
+.Avatar1{
+height: 50px;
+top: 316px;
+left: 640px;
+border-radius: 50%;
+}
+.SecDiv{
+ width: 290px;
+ margin: auto;
+}
+.style li{
+    display: inline-block;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
