@@ -1,3 +1,6 @@
+* { 
+    box-sizing: border-box;
+ }
 html{
     background: linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%), linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%), #F39494;
 }
@@ -24,7 +27,6 @@ input {
     background-color: #f5f5f5;
     font-size: 16px;
     font-style: italic;
-    border: 0;
     border-radius: 5px;
     line-height: 26px;
     border: 1px solid #f5f5f5;
@@ -44,33 +46,43 @@ margin: 0 0 47px 0;
 color: #089FE0;
 font-size: 14px;
 }
-.heroButton{
+.button-with-icon{
+    position: relative;
+    padding: 10px 20px;
     background-color: #089FE0;
     font-size: 18px;
     color: white;
     border-radius: 5px;
-    border: none;
     width: 394px;
     height: 44px;
     border-color: #4262FF;
     color: white;
-    
+    border: none;
+  outline: none;
+  cursor: pointer;
 }
-.heroButton:hover {
+.button-with-icon::after {
+    content: url('./img/dsds.png'); 
+    position: absolute;
+    top: 55%;
+    right: 10px; 
+    transform: translateY(-50%);
+  }
+.button-with-icon:hover {
     background-color: #000281;
 }
-.heroButton:active{
+.button-with-icon:active{
     background-color: #8400ff;
 }
 .checkbox{
     font-size: 14px;
     color: #666;
 }
-.Name input {
+input.Name {
     width: 196px;
     border-radius: 5px 0 0 5px;
  }
- .surname input {
+ input.surname{
     border-radius: 0 5px 5px 0;
     width: 196px;
  }
