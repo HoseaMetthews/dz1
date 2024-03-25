@@ -1,45 +1,128 @@
+* { 
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+ }
 html{
-    background-color: #F39494;
+    background: linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%), linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%), #F39494;
+    width: 100%; 
+    height: 100%;
 }
-.Block{
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+.Block {
+    padding: 72px 93px 91px 95px;
+    margin: auto;
+    width: 582px;
+    height: 573px;
+    border-radius: 10px;
     background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }
 h1{
     font-size: 36px;
+    text-align: center;
+    margin: 0 0 5px 0;
+    
+
+}
+input {
+    width: 394px;
+    color: #000000;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+    line-height: 26px;
+    border: 1px solid #f5f5f5;
+    padding: 9px 10px 9px 10px;
 }
 p{
     font-size: 18px;
 color: #666;
+text-align: center;
+margin: 0 0 47px 0;
 }
-#Giper{
+.Giper{
     color: #089FE0;
     font-size: 18px;
 }
-#Giper2{
+.Giper2{
 color: #089FE0;
 font-size: 14px;
 }
-#heroButton{
+.button-with-icon{
+    position: relative;
+    padding: 10px 20px;
     background-color: #089FE0;
     font-size: 18px;
     color: white;
+    border-radius: 5px;
+    width: 394px;
+    height: 44px;
+    border-color: #4262FF;
+    color: white;
+    border: none;
+  outline: none;
+  cursor: pointer;
 }
-#checkbox{
+.button-with-icon::after {
+    content: url('./img/dsds.png'); 
+    position: absolute;
+    top: 55%;
+    right: 10px; 
+    transform: translateY(-50%);
+  }
+.button-with-icon:hover {
+    background-color: #000281;
+}
+.button-with-icon:active{
+    background-color: #8400ff;
+}
+.checkbox{
     font-size: 14px;
     color: #666;
 }
-#username{
-    background-color: white;
+.line {
+    margin: 0 0.5px; /* Расстояние между полоской и input */
 }
-#name{
-    color: #999;
-    font-size: 14px;
+.dSurnameName{
+    display: flex;
 }
-#surname{
-    color: #999;
-    font-size: 14px;
-}
-#email{
+input.Name {
+    width: 196px;
+    border-radius: 5px 0 0 5px;
+ }
+ .Name{
+    border-right: 1px solid rgba(255, 255, 255, 1);
+ }
+ input.surname{
+    border-radius: 0 5px 5px 0;
+    width: 196px;
+ }
+.email{
     color: #999;
     font-size: 16px;
+}
+.Size{
+    
+}
+.Size div{
+    margin: 22px auto 22px;
+}
+.book{
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 15px;
+    height: 16px;
+    border-radius: 5px;
+    border: 1px;
+    font-size: 14px;
 }

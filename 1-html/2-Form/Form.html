@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистарция</title>
-    <link rel="stylesheet" href="C:\Users\islam\OneDrive\Документы\dz1\1-html\2-Form\2.css">
-</head>
+    <link rel="stylesheet" href="./2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
         <form action="#">
             <div class="Block">
-            <header> <h1>Регистарция</h1></header>
+            <h1>Регистарция</h1>
     <p>
-        Уже есть аккаунт? <a href="#" id="Giper">Войти</a>
+        Уже есть аккаунт? <a href="#" class="Giper">Войти</a>
     </p>
-                <input type="username" name="username" id="username" placeholder="Введите имя пользователя"> <br>
-                <input type="text" name="Name" id="Name" placeholder="Имя"> <input type="text" name="surname" id="surname" placeholder="Фамилия"><br>
-                <input type="email" name="email" id="email" placeholder="E-mail"><br>
-                <button id="heroButton">Зарегистрироваться</button><br>
-                <div>
-                <input type="checkbox" name="book" id="book">
-                <label for="book" id="checkbox">Я прочитал и принимаю</label>
-                <a href="#" id="Giper2">Условия использования</a>
+    <div class="Size">
+    <div class="dusername">
+        <input type="text" name="username" class="username" placeholder="Введите имя пользователя" value="Моя компания">
+    </div>
+    <div class="dSurnameName">
+        <input type="text" name="Name" class="Name" placeholder= "Имя">
+        <span class="line"></span>
+        <input type="text" name="surname" class="surname" placeholder="Фамилия">
+    </div>
+    <div class="demail">
+        <input type="email" name="email" class="email" placeholder="E-mail">
+    </div>
+    <div class="dheroButton">
+        <button class="button-with-icon">Зарегистрироваться</button>
+    </div>
+    <div class="dcheckbox"><input type="checkbox" name="book" class="book">
+    <label for="book" class="checkbox">Я прочитал и принимаю </label>
+    <a href="#" class="Giper2">Условия использования</a>
+</div>
             </div>
             </div>
         </form>
